@@ -2,6 +2,7 @@ Arduino_MorseCode
 =================
 
 Name: Pratibha Natani
+Portland State University
 
 Date: 03/12/2013
 
