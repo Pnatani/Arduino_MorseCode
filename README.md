@@ -2,6 +2,7 @@ Arduino_MorseCode
 =================
 
 Name: Pratibha Natani
+
 Date: 03/12/2013
 
 
@@ -25,88 +26,11 @@ A simple application is developed for Arduino Uno, that encodes serial input int
 Testing Application: 
 The application is tested on a variety of testcases. To check the Morse code format of the input letters, various Serial.print statements have been added in the code. These statements print the morse code of the letters from (0-9 and A-Z) on the Serial Monitor and thus confirm the correct translation. Tests are conducted to verify the gap between various words of a sentence and also to check that unrequired characters e.g. (;, :, @ etc) are ignored.
 
-Test Cases
-
-Output:
-
-Requirement Tested
-Input: SOS
-
-character is:S
-
-Morse code is: ...
-
-character is:O
-
-Morse code is: ---
-
-character is:S
-
-Morse code is: ...
-
-String finished!
-
-Checks the conversion of Alphabets to morse code
-
-Input: Hi PSU
-
-character is:H
-
-Morse code is: ....
-
-character is:I
-
-Morse code is: ..
-
-space between words
-
-character is:P
-
-Morse code is: .--.
-
-character is:S
-
-Morse code is: ...
-
-character is:U
-
-Tested the space between words. Test the lower case.
-
-3
-
-Morse code is: ..-
-
-String finished!
-
-@A
-
-ignored character
-
-character is:A
-
-Morse code is: .-
-
-String finished!
-
-Tested ignoring the unrequired character “@”
-
-9B
-
-character is:9
-
-Morse code is: ----.
-
-character is:B
-
-Morse code is: -...
-
-String finished!
-
-Test letter and alphabet together.
 
 Files:
 
 1) Arduino_MorseCode.ino contains code for converting input string into Morse code
+
 
 Steps for Arduino Setup:
 
@@ -119,7 +43,8 @@ http://arduino.cc/en/Main/Software
 
 4) Now we can launch the Arduino Application.
 
-4Compiling and Testing “Arduino_MorseCode.ino”:
+
+Compiling and Testing “Arduino_MorseCode.ino”:
 
 1) Open the file with Arduino Application.
 
@@ -134,6 +59,7 @@ http://arduino.cc/en/Main/Software
 6) Modify settings of this windows. Choose “Newline” in the dropdown box of Serial Monitor to allow.
 
 7) Provide Input in the window and click “Send”.
+
 
 References and Collaboration:
 
