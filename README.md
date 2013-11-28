@@ -63,10 +63,6 @@ Compiling and Testing “Arduino_MorseCode.ino”:
 7) Provide Input in the window and click “Send”.
 
 
-References and Collaboration:
-
-I discussed this project with following people: Neeraja Budamagunta, Padmaja Matlaparti, Nima Bagheri, Minh Truong.
-
 http://arduino.cc/en/Guide/windows
 
 http://arduino.cc/en/Main/Software
